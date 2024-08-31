@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .intro {
+            margin: 2rem 0;
+        }
+        .intro img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .intro h1 {
+            font-size: 2.5rem;
+            margin: 0.5rem 0;
+        }
+        .intro p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+        .projects, .skills {
+            margin: 2rem 0;
+        }
+        .projects h2, .skills h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .projects .project-item {
+            background-color: white;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background-color: #eee;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <img src="file:///C:/Users/HP/OneDrive/Desktop/swetha.jpg" alt="Anand Swetha">
+            <h1>Anand Swetha</h1>
+            <p>Hi, I'm a web developer with a passion for creating beautiful and functional websites. Welcome to my portfolio!</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>: Temperature Converter is designed by using web development technologies such as HTML. It has special kind of features, if we give Celsius then it displays that degree in Kelvin and also Fahrenheit at a time.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>General health prediction .The aim to implement a robust machine learning modle that can efficiently predictly the disease of a human ,based on the symptoms that he/she possesses</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
